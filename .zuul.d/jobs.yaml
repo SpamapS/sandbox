@@ -4,5 +4,7 @@
     run: sandbox.yaml
     nodeset:
       nodes:
-        - name: builder
-          label: ubuntu1804
+        - name: boxy
+          label: k8s-namespace
+        - name: kubectl
+          label: kubectl-pod

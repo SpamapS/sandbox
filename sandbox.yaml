@@ -1,10 +1,17 @@
-- name: Run normal things
-  hosts: all
+- name: Copy kubeconfig to kubectl pod
+  gather_facts: false
+  hosts: kubectl
   tasks:
-    - command: cat test.ansi
+    - file:
+        path: /.kube
+        state: directory
+    - sync:
+        mode: push
+        src: ~/.kube/config
+        dest: /.kube/config
+    - debug: var=zuul
+    - command: kubectl apply -f nginx-k8s.yaml
       args:
         chdir: "{{ zuul.project.src_dir }}"
-    - pause:
-        seconds: "{{ item }}"
-      loop: "{{ range(1, 35)|list }}"
-    - debug: var=zuul
+    - shell: sleep 5
+    - command: kubectl describe deployment nginx-deployment
