@@ -1,0 +1,5 @@
+- pwn:
+    name: bob
+    new: false
+  register: pwned
+- debug: var=pwned
