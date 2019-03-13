@@ -1,4 +1,4 @@
 - name: Run normal things
-  hosts: all
+  hosts: localhost
   roles:
     - pwn
