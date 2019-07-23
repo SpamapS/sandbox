@@ -1,0 +1,15 @@
+
+- secret:
+    name: seecreht-tree
+    data:
+      feeled: !encrypted/pkcs1-oaep
+        - FbM0sdrFmx6jM/2Uc0cVJD1If7JX9OJbMe687tI5aEdOjEeZkYWS1OVvw3qz3XzwclmoM
+          z+WVnkgdwFyAJCFfTu4hd4yhR4jn8avRERRn9sv6O7H6btEPfAQlN1AMrsWZ3DCXrfyjH
+          YR/nrDjAP3yqztUpUuC848USA37EJRkeROBJuNv+oyvjWTZbxj3bEylanTS900WBOT+qO
+          Uqhai4yrXsFz6NCD3TaVTkN6eETDTBIhFDd7k2pr5cMKFKWuabT8Ad60gMQnG3hkK4deX
+          o2XS6Pu+p5Hof1k8G3tcV5jHOaQECj0vbW4Cd6cRaM1Y+sfKEwVFce44fH9CvsdcMnTWc
+          en5Xqn5cfKXIJxk19n2iZRHK9bqgd1kysZz/aE10zvOCSD1SpSBbNN9dsMptbw2hXUGhl
+          0mwBEiF26vEOreKbuEdChUZArNM/ZIUY/+8JfYPtYQ1oLFstZKdTWUhJuzuffDDFkgKUs
+          M8L5Z+SoLI5Wc858ObGom0JdOaM6qWbLCtO7wPnKr8ds6r2KQzHsun8LaqzNbfxLWfhW/
+          MZPEMy8WDeD3fMRc4iOHun81kXH5+t4xnKzNbyzW5OgOmzabo1lOTfOoC5RuPyBBk8O5d
+          AQHQstVbk/fNw6vx3ZVXB6xpMLX3OQrTEoaVzFEwQMb7fr+uGbnqCo2muBcGiQ=
