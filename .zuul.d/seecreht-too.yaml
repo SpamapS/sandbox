@@ -1,0 +1,15 @@
+
+- secret:
+    name: seecreht-too
+    data:
+      feeled: !encrypted/pkcs1-oaep
+        - rDNNbdwi40tTjgtkx1pbc78TUhD7gjZyXMDNvYu9C7wO5UCVz6bxKqzfDR43TGXzW0XUF
+          axvyruIoX5hMwE0bHbEvV7ZMqnWERW4d3GkEZQlrhGTgmxPA9dJp7DMolUGIWtUtZM7wk
+          h4xgh/BqIod2tl3cDJpyhQlUZD1WXquX1sNDL23Clti9OtfoRRDtT0Vm5gW3x9c/XjfcS
+          p07LnGwQqJeJRfVi/QcgTNWvht2JmWQNHzsY7zeJyB8UkmvpZLTY6JF0WWg/EQjlf6h/O
+          YzaFbCmSTeKxk6oViaP7bZt9TErBfadkRUeUDbF034N28QBunfvlJjrnbxh78iNxsqHT6
+          KHiu2q6CtRhjT0GfyCqjUwXI7qwlff6iXyPZyz3LHkk8nlBDivMsPtqCxMqCohMy3F9pm
+          7V7iYFYIIWHMtl2km3EFOr6xMrci0mVGzHNIQH3cZ6uD1JPKGxhuYA2MTg7nGh2gRzCnp
+          /A1xhnxEcf4RgDEm7HSjOF+Sp6bfRYiZPpNGp1g8o66y+zH9R78UC8Cd3SReqxGuT42Bg
+          u7l18kXu9zOgi/qRrsISX//8tYZ0inYN0u5u4nxI6TPqO7boxcqWqrKYYurRBeEL968lH
+          joVb7oG2Ldyyx8E6pFDCvlKIh3n6/kZosXFSwfc3Hd8rEfKIMVCDpW6NbK9Vn8=
