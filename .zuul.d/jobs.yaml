@@ -7,6 +7,13 @@
         - name: builder
           label: ubuntu1804
 - job:
+    name: sandbox-gate
+    parent: sandbox-check
+    secrets:
+      - secret: seecreht
+        name: boom
+
+- job:
     name: matt-check
     parent: gm-base
     run: matt.yaml

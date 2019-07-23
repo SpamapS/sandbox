@@ -1,0 +1,15 @@
+
+- secret:
+    name: seecreht
+    data:
+      feeled: !encrypted/pkcs1-oaep
+        - S/cDindUHzz+XUfQfyTnn8DHQEYGqj/vAflWLftirRcJGQ6Ecpf9OG8LhB3iIPUQiYv9+
+          EscwKVTrlJbIyIYBYkEeAa8zcFJC7C3XePAE8pUKnNxA5omXj4bxIps4QZw1BZEFYsPYY
+          C2ZgSrgdu8nejXF7GdeL0+z3ck3u26D0EnQ0eGTQkZC3JE4ZpFVbg/OQ5e/fyp1w3qhuP
+          L36SxZdY69oFwS/ayvd6hle1eWZXuxoS5w2N4p38i4gprgbsPSLBaaEwjKq3Ifu5yxNRh
+          bK2kjWxTqnz0aSUAWHiCZPPTyuTJgtQKG3Asnn4QV7aVW61psa6Q3pkb3SZIbSj35uChU
+          DIda6NkSZUtN0qmT2RGgPrayFuFzH2wmG1UMdlsXQv1V2yZU/gzNfo6tygJrNb8CHe/Eg
+          g8g2/ugU52GUAabQnlF3sUSp09OhNZubBdRJkKVe1KioZUCpDvq4Cc0KnslOmco2uTQ9Y
+          eY/yVkxQDFp7FkEAphkzzSg5gk7uRaXv78jviqVbboX+b6UuZTSwasI9FIpz5SmQcI8Oq
+          YvWim4/MhfX/eVC7dZkaAc1eUMJyoNsbsFs3FIC/LfAEBYBnVsT6zH5TglvkBIWYY30gx
+          6a7PBzkFdMFmvNuZSsS41rUJKsgYQ4BRihFf0nKPE7rzTLs57wSSMiOWm0S1Wk=
