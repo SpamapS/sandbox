@@ -16,7 +16,7 @@
         - name: builder
           label: ubuntu1804
     secrets:
-      - secret: seecreht
+      - secret: seecreht-too
         name: boom
 
 - job:
