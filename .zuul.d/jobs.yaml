@@ -6,9 +6,15 @@
       nodes:
         - name: builder
           label: ubuntu1804
+
 - job:
     name: sandbox-gate
-    parent: sandbox-check
+    parent: gm-base
+    run: sandbox.yaml
+    nodeset:
+      nodes:
+        - name: builder
+          label: ubuntu1804
     secrets:
       - secret: seecreht
         name: boom
