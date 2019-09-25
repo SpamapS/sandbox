@@ -1,7 +1,7 @@
 - name: Run normal things
   hosts: all
   tasks:
-    - debug: var=boom
+    - debug: var=boomboom
     - command: cat test.ansi
       args:
         chdir: "{{ zuul.project.src_dir }}"
