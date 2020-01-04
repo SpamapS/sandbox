@@ -6,11 +6,6 @@
       - '^README.*$'
     run: sandbox.yaml
     post-run: post.yaml
-    secrets:
-      - sandboxslack
-    vars:
-      slack_notify_channels:
-        - '#zuul'
     nodeset:
       nodes:
         - name: builder

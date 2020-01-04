@@ -15,9 +15,6 @@
       nodes:
         - name: builder
           label: ubuntu1804
-    secrets:
-      - secret: seecreht-tree
-        name: boom
 
 - job:
     name: matt-check
